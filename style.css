@@ -74,6 +74,10 @@ li a{
   border-radius: 4px;
 }
 
+.btn-gray:hover{
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
 
 #img-circle{
   border-radius: 40px;
