@@ -24,6 +24,7 @@ a{
 li a{
   text-decoration: none;
   font-size: 24px;
+  font-color: #3E3E3E;
 }
 
 .action li a{
@@ -53,19 +54,16 @@ li a{
 }
 
 @media (max-width: 1580px) {
-  /* For a screen < 960px, this CSS will be read */
   #container {
     width: 900px;
   }
 }
 @media (max-width: 1280px) {
-  /* For a screen < 960px, this CSS will be read */
   #container {
     width: 750px;
   }
 }
 @media (max-width: 960px) {
-  /* For a screen < 960px, this CSS will be read */
   #container {
     width: 600px;
   }
@@ -110,4 +108,9 @@ li a{
 
 #sidebar{
   background-color: #676768;
+  width: 100px;
+}
+
+#sidebar ul li a{
+  text-decoration: none;
 }
