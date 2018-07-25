@@ -92,13 +92,7 @@ li a{
   padding: 10px;
 }
 
-#sidebar {
-  position: fixed;
-  width: 300px;
-  left: 0;
-  top: 0;
-  bottom: 0;
-}
+
 #page-content {
   margin-left: 300px;
 }
@@ -110,6 +104,10 @@ li a{
   left: 0;
   top: 0;
   bottom: 0;
+}
+
+#sidebar:hover{
+  color: rgba(0, 0, 0, 0.7);
 }
 
 #sidebar ul{
