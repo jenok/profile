@@ -76,7 +76,8 @@ li a{
 
 
 #img-circle{
-  border-radius: 50px;
+  border-radius: 40px;
+  border: solid
 }
 
 
