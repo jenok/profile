@@ -109,7 +109,7 @@ li a{
 #sidebar{
   position: fixed;
   width: 50px;
-  background-color: gray;
+  background-color: rgba(0, 0, 0, 0.3);
   left: 0;
   top: 0;
   bottom: 0;
@@ -119,3 +119,15 @@ li a{
 #sidebar ul li a{
   text-decoration: none;
 }
+
+@media (max-width: 1280px) {
+  #container {
+    width: 50px;
+  }
+}
+@media (max-width: 960px) {
+  #sidebar {
+    width: 0px;
+  }
+}
+
