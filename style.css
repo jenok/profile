@@ -31,6 +31,11 @@ li a{
   font-size: 33px;
 }
 
+#social li a:hover{
+  font-size: 33px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
 #container{
   width: 1200;
   margin: 0 auto;
