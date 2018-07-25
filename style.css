@@ -14,7 +14,7 @@ h2{
 }
 
 h1{
-  color: #001C55;
+  color: #E3001C;
 }
 
 a{
@@ -106,4 +106,8 @@ li a{
 }
 #page-content {
   margin-left: 300px;
+}
+
+#sidebar{
+  background-color: #676768;
 }
