@@ -122,3 +122,11 @@ li a{
 #sidebar ul{
   list-style-type: none;
 }
+
+
+input[type=search] {
+  border: 1px dotted #999;
+  border-radius: 0;
+
+  -webkit-appearance: none;
+}
