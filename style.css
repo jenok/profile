@@ -1,0 +1,97 @@
+body{
+  background-color: #A7C9DF;
+  font-family: 'Sunflower', sans-serif;
+  color: #0A2472
+}
+
+body p{
+  line-height: 22px;
+}
+
+h1,
+h2{
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1{
+  color: #001C55;
+}
+
+a{
+  color: #00072D;
+}
+
+li a{
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.action li a{
+  font-size: 20px;
+}
+
+#social li a{
+  font-size: 33px;
+}
+
+#container{
+  width: 1200;
+  margin: 0 auto;
+}
+
+.card{
+  background-color: #E8F3FD;
+  border-radius: 4px;
+  padding: 18px;
+  margin: 18px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.25);
+}
+
+.text-center{
+  text-align: center;
+}
+
+@media (max-width: 1580px) {
+  /* For a screen < 960px, this CSS will be read */
+  #container {
+    width: 900px;
+  }
+}
+@media (max-width: 1280px) {
+  /* For a screen < 960px, this CSS will be read */
+  #container {
+    width: 750px;
+  }
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  #container {
+    width: 600px;
+  }
+}
+
+.btn-red{
+  padding: 10px;
+  font-size: 17px;
+  background-color: #0A2472;
+  color: #EEF6FD;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+
+#img-circle{
+  border-radius: 50px;
+  border: 2px groove #5C6179;}
+
+
+
+.list-inline > li{
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+
+.list-inline{
+  padding: 10px;
+}
